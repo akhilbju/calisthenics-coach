@@ -1,0 +1,15 @@
+1. Install Node.js 20+, Android Studio and JDK 17.
+2. Extract the ZIP.
+3. Open a terminal in the project folder.
+4. Run:
+   npm install
+   npx cap add android
+   npm run android:sync
+   npx cap open android
+5. In Android Studio, wait for Gradle sync, connect your Android phone (USB debugging enabled) or select an emulator, then press Run.
+
+For future code changes, run: npm run android:sync
+
+Open Settings in the app to enable a daily reminder.
+
+This is the complete source project, not a prebuilt APK. Android Studio is required to compile the APK.
